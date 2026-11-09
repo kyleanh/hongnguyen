@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Phòng khám Y học cổ truyền Hồng Nguyên | Cơ xương khớp tại Thủ Đức và Gò Vấp</title>
+<meta name="description" content="Hệ thống phòng khám chuyên khoa Y học cổ truyền Hồng Nguyên: thăm khám, tư vấn và điều trị cơ xương khớp tại Thủ Đức và Gò Vấp. Đặt lịch qua hotline hoặc Zalo.">
+<meta property="og:title" content="Phòng khám Y học cổ truyền Hồng Nguyên">
+<meta property="og:description" content="Chăm sóc cơ xương khớp bằng y học cổ truyền tại Thủ Đức và Gò Vấp.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;500;600&family=Lora:wght@600;700&display=swap" rel="stylesheet">
+<style>
+:root{--g:#0b3b2e;--g2:#072a20;--gold:#e6c36a;--mint:#eef4f0;--ink:#1b2a25;--mut:#55655e;--logo:#294b35}
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:'Be Vietnam Pro',system-ui,sans-serif;color:var(--ink);background:var(--mint);line-height:1.65}
+h1,h2,h3{font-family:Lora,Georgia,serif;line-height:1.25}
+a{color:inherit}
+a:focus-visible,summary:focus-visible{outline:3px solid var(--gold);outline-offset:3px}
+.wrap{max-width:1040px;margin:0 auto;padding:0 20px}
+header{background:var(--logo);color:#fff;position:sticky;top:0;z-index:10}
+header .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:68px}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none}
+.brand img{height:46px;width:auto;display:block}
+.brand b{font-family:Lora,serif;color:var(--gold);font-size:1.1rem;letter-spacing:.06em}
+nav{display:flex;gap:22px;font-size:.92rem}
+nav a{text-decoration:none;opacity:.85}
+nav a:hover{opacity:1;color:var(--gold)}
+.btn{display:inline-block;padding:12px 24px;border-radius:999px;font-weight:600;text-decoration:none;font-size:.95rem}
+.gold{background:var(--gold);color:var(--g2)}
+.line{border:1.5px solid var(--gold);color:var(--gold)}
+.solid{background:var(--g);color:#fff}
+.out{border:1.5px solid var(--g);color:var(--g)}
+.hero{background:var(--g);color:#fff;padding:84px 0 72px}
+.hero h1{font-size:clamp(2.1rem,5.2vw,3.4rem);max-width:15em}
+.hero p{max-width:35em;margin:20px 0 30px;color:#d6e6dd}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.trust{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px;margin-top:48px;font-size:.92rem;color:#d6e6dd}
+.trust li{border-top:2px solid var(--gold);padding-top:10px}
+section{padding:68px 0}
+h2{font-size:clamp(1.6rem,3.4vw,2.2rem);color:var(--g);margin-bottom:8px}
+.sub{color:var(--mut);margin-bottom:30px;max-width:40em}
+.cols{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:22px}
+.panel{background:#fff;border:1px solid #d3e2d9;border-left:5px solid var(--g);padding:24px 26px}
+.panel h3{font-size:1.2rem;color:var(--g);margin-bottom:10px}
+.panel ul{padding-left:1.1em}
+.panel li{margin:6px 0}
+.steps{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:24px;counter-reset:s}
+.steps li{border-top:2px solid var(--g);padding-top:14px;counter-increment:s}
+.steps li::before{content:counter(s) ".";font-family:Lora,serif;font-size:1.5rem;color:var(--g);display:block}
+.steps b{display:block;margin:2px 0 4px}
+.steps span{color:var(--mut);font-size:.95rem}
+.dark{background:var(--g2);color:#fff}
+.dark h2{color:var(--gold)}
+.dark .sub{color:#c5d8cd}
+.loc{background:var(--g);border:1px solid rgba(230,195,106,.35);padding:26px}
+.loc h3{color:var(--gold);font-size:1.3rem}
+dl{display:grid;grid-template-columns:auto 1fr;gap:6px 16px;margin:14px 0 20px;font-size:.95rem}
+dt{color:#9fbcae}
+dd a{text-decoration:none;font-weight:600}
+.loc .btn{padding:10px 18px;font-size:.9rem}
+.note{margin-top:22px;color:#c5d8cd;font-size:.92rem}
+details{background:#fff;border:1px solid #d3e2d9;padding:16px 20px;margin-bottom:10px}
+summary{cursor:pointer;font-weight:600;color:var(--g)}
+details p{margin-top:8px;color:var(--mut)}
+footer{background:var(--logo);color:#b9cfc3;padding:36px 0 96px;font-size:.85rem}
+footer b{color:var(--gold);font-family:Lora,serif;font-size:1rem}
+.bar{display:none}
+@media(max-width:720px){nav{display:none}.hero{padding:56px 0}.bar{display:flex;position:fixed;left:0;right:0;bottom:0;z-index:20;background:var(--g2);padding:10px;gap:8px}.bar a{flex:1;text-align:center;padding:12px 8px;background:var(--gold);color:var(--g2);font-weight:600;font-size:.9rem;text-decoration:none;border-radius:8px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
+</style>
+<script type="application/ld+json">{"@context":"https://schema.org","@graph":[{"@type":"MedicalClinic","name":"Phòng khám Y học cổ truyền Hồng Nguyên - Thủ Đức","telephone":"+84768134991","openingHours":"Mo-Su 08:00-20:00","address":{"@type":"PostalAddress","streetAddress":"9A Thống Nhất","addressLocality":"Phường Thủ Đức, TP. Thủ Đức","addressCountry":"VN"}},{"@type":"MedicalClinic","name":"Phòng khám Y học cổ truyền Hồng Nguyên - Gò Vấp","telephone":"+84786493894","openingHours":"Mo-Su 08:00-20:00","address":{"@type":"PostalAddress","streetAddress":"83 Nguyễn Thái Sơn","addressLocality":"Phường Hạnh Thông, TP.HCM","addressCountry":"VN"}}]}</script>
+</head>
+<body>
+<header><div class="wrap">
+<a class="brand" href="#"><img src="assets/logo.png" alt="Logo Hồng Nguyên"><b>HỒNG NGUYÊN</b></a>
+<nav><a href="#dich-vu">Dịch vụ</a><a href="#quy-trinh">Quy trình</a><a href="#co-so">Cơ sở</a><a href="#hoi-dap">Hỏi đáp</a></nav>
+<a class="btn gold" href="#co-so">Đặt lịch</a>
+</div></header>
+<main>
+<section class="hero"><div class="wrap">
+<h1>Chăm sóc cơ xương khớp bằng y học cổ truyền</h1>
+<p>Bác sĩ trực tiếp thăm khám và tư vấn phác đồ phù hợp với từng tình trạng. Hệ thống phòng khám chuyên khoa Y học cổ truyền Hồng Nguyên tại Thủ Đức và Gò Vấp.</p>
+<div class="cta"><a class="btn gold" href="#co-so">Đặt lịch tư vấn</a><a class="btn line" href="#dich-vu">Xem các vấn đề điều trị</a></div>
+<ul class="trust"><li>Được Sở Y tế TP.HCM cấp phép hoạt động</li><li>Bác sĩ và kỹ thuật viên giàu kinh nghiệm</li><li>Hai cơ sở tại TP.HCM, mở cửa mỗi ngày</li></ul>
+</div></section>
+
+<section id="dich-vu"><div class="wrap">
+<h2>Các vấn đề được thăm khám và tư vấn</h2>
+<p class="sub">Điều trị theo chỉ định của bác sĩ sau khi thăm khám trực tiếp.</p>
+<div class="cols">
+<div class="panel"><h3>Cơ xương khớp</h3><ul><li>Thoái hóa cột sống cổ, thắt lưng</li><li>Thoái hóa khớp gối, bàn tay</li><li>Thoát vị đĩa đệm</li><li>Đau cổ vai gáy, đau thắt lưng</li><li>Đau thần kinh tọa, đau cơ</li></ul></div>
+<div class="panel"><h3>Các vấn đề khác</h3><ul><li>Mất ngủ, khó ngủ</li><li>Đau đầu căng thẳng</li><li>Viêm mũi dị ứng, viêm xoang</li><li>Khó tiêu, đầy bụng</li><li>Vấn đề dạ dày, đại tràng</li></ul></div>
+</div></div></section>
+
+<section id="quy-trinh" style="padding-top:0"><div class="wrap">
+<h2>Quy trình khám</h2>
+<p class="sub">Bốn bước, bạn biết rõ mình đang ở đâu.</p>
+<ol class="steps">
+<li><b>Đặt lịch</b><span>Gọi hoặc nhắn Zalo để chọn cơ sở và giờ phù hợp.</span></li>
+<li><b>Thăm khám</b><span>Bác sĩ hỏi bệnh, khám và đánh giá tình trạng của bạn.</span></li>
+<li><b>Tư vấn phác đồ</b><span>Giải thích rõ phương pháp trước khi thực hiện.</span></li>
+<li><b>Theo dõi</b><span>Điều chỉnh theo đáp ứng và hướng dẫn chăm sóc tại nhà.</span></li>
+</ol>
+</div></section>
+
+<section id="co-so" class="dark"><div class="wrap">
+<h2>Hai cơ sở, đặt lịch trước</h2>
+<p class="sub">Chọn cơ sở gần bạn nhất.</p>
+<div class="cols">
+<div class="loc"><h3>Cơ sở Thủ Đức</h3>
+<dl><dt>Địa chỉ</dt><dd>9A Thống Nhất, Phường Thủ Đức, TP. Thủ Đức, TP.HCM</dd><dt>Hotline, Zalo</dt><dd><a href="tel:0768134991">0768.134.991</a></dd><dt>Giờ làm việc</dt><dd>08:00 đến 20:00, tất cả các ngày</dd><dt>Giấy phép</dt><dd>GPHĐ số 12231/HCM-GPHĐ</dd></dl>
+<div class="cta"><a class="btn gold" href="tel:0768134991">Gọi ngay</a><a class="btn line" href="https://zalo.me/0768134991">Nhắn Zalo</a><a class="btn line" href="https://www.google.com/maps/search/?api=1&query=9A%20Th%E1%BB%91ng%20Nh%E1%BA%A5t%2C%20Ph%C6%B0%E1%BB%9Dng%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c%2C%20TP.%20Th%E1%BB%A7%20%C4%90%E1%BB%A9c" target="_blank" rel="noopener">Chỉ đường</a></div></div>
+<div class="loc"><h3>Cơ sở Gò Vấp</h3>
+<dl><dt>Địa chỉ</dt><dd>83 Nguyễn Thái Sơn, Phường Hạnh Thông, TP.HCM</dd><dt>Hotline, Zalo</dt><dd><a href="tel:0786493894">0786.493.894</a></dd><dt>Giờ làm việc</dt><dd>08:00 đến 20:00, tất cả các ngày</dd><dt>Giấy phép</dt><dd>GPHĐ số 08823/HCM-GPHĐ</dd></dl>
+<div class="cta"><a class="btn gold" href="tel:0786493894">Gọi ngay</a><a class="btn line" href="https://zalo.me/0786493894">Nhắn Zalo</a><a class="btn line" href="https://www.google.com/maps/search/?api=1&query=83%20Nguy%E1%BB%85n%20Th%C3%A1i%20S%C6%A1n%2C%20Ph%C6%B0%E1%BB%9Dng%20H%E1%BA%A1nh%20Th%C3%B4ng%2C%20TP.HCM" target="_blank" rel="noopener">Chỉ đường</a></div></div>
+</div>
+<p class="note">Vui lòng đặt lịch trước để bác sĩ sắp xếp thời gian phù hợp cho bạn.</p>
+</div></section>
+
+<section id="hoa-dap"><div class="wrap">
+<h2 id="hoi-dap">Câu hỏi thường gặp</h2>
+<p class="sub">Những điều khách thường hỏi trước khi đến khám.</p>
+<details><summary>Tôi có cần đặt lịch trước không?</summary><p>Nên đặt lịch trước qua hotline hoặc Zalo để phòng khám sắp xếp bác sĩ và thời gian phù hợp.</p></details>
+<details><summary>Điều trị bao lâu thì thấy hiệu quả?</summary><p>Tùy tình trạng và đáp ứng của từng người. Bác sĩ sẽ tư vấn phác đồ và thời gian dự kiến sau khi thăm khám.</p></details>
+<details><summary>Phòng khám có được cấp phép không?</summary><p>Có. Mỗi cơ sở có giấy phép hoạt động riêng do Sở Y tế TP.HCM cấp, số giấy phép ghi ở phần Cơ sở phía trên.</p></details>
+</div></section>
+</main>
+<footer><div class="wrap">
+<b>Hệ thống phòng khám chuyên khoa Y học cổ truyền Hồng Nguyên</b>
+<p style="margin-top:8px">Thông tin trên website chỉ mang tính tham khảo, không thay thế việc thăm khám và chẩn đoán của bác sĩ. Điều trị theo chỉ định của bác sĩ; hiệu quả tùy tình trạng và đáp ứng của từng người.</p>
+</div></footer>
+<div class="bar"><a href="tel:0768134991">Gọi Thủ Đức</a><a href="tel:0786493894">Gọi Gò Vấp</a></div>
+</body>
+</html>
