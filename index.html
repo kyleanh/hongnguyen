@@ -89,7 +89,7 @@ const SHOTS=[];           // ảnh cảm nhận, ví dụ 'assets/cam-nhan/1.jpg
 const $=i=>document.getElementById(i);
 if(MESSENGER_URL){$('ms').href=MESSENGER_URL;$('ms').target='_blank';$('ms').rel='noopener'}
 const vs=v=>v.t==='yt'?'https://www.youtube.com/embed/'+v.id:'https://www.facebook.com/plugins/video.php?show_text=false&href='+encodeURIComponent(v.url);
-$('vids').innerHTML=VIDEOS.length?VIDEOS.map(v=>`<iframe src="${vs(v)}" loading="lazy" allowfullscreen title="Video cảm nhận khách hàng"></iframe>`).join(''):'<div class="ph"><b>Video cảm nhận</b><span>Ảnh minh họa, sẽ thay bằng video thật</span></div>'.repeat(3);
+$('vids').innerHTML=VIDEOS.length?VIDEOS.map(v=>`<iframe src="${vs(v)}" loading="lazy" allowfullscreen title="Video cảm nhận khách hàng"></iframe>`).join(''):'<div class="ph"><b>Video cảm nhận</b><span>Video minh họa</span></div>'.repeat(3);
 $('shots').innerHTML=SHOTS.length?SHOTS.map(s=>`<img src="${s}" alt="Cảm nhận của khách hàng" loading="lazy">`).join(''):'<div class="ph"><b>Tin nhắn cảm nhận</b><span>Ảnh minh họa</span></div>'.repeat(4);
 const f=$('lead'),m=$('msg'),b=$('sb');
 f.addEventListener('submit',async e=>{e.preventDefault();
